@@ -1,0 +1,31 @@
+2026-09-05 12:52:04 - [32minfo[39m: Reading configs from D:\TestHackaton\browserstack.yml
+2026-09-05 12:52:04 - [32minfo[39m: Log Directory has been set to D:\TestHackaton\log
+2026-09-05 12:52:05 - [32minfo[39m: Running SDK with args C:\Program Files\nodejs\node.exe D:\TestHackaton\node_modules\browserstack-node-sdk\src\bin\runner.js playwright test
+2026-09-05 12:52:05 - [32minfo[39m: SDK run started with id: 5a1af783-0681-4807-8a85-3dc5fed0f8da
+2026-09-05 12:52:06 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2026-09-05 12:52:07 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2026-09-05 12:52:07 - [32minfo[39m: [CLIUtils] Current CLI Path Found: 
+2026-09-05 12:52:10 - [32minfo[39m: [BrowserstackCLI] spawning command='C:\Users\Lenovo\.browserstack\cli\binary-win-x64.exe,sdk'
+2026-09-05 12:52:14 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"e65bce6c-eefd-4f15-bf95-0141928029e4","listen":"127.0.0.1:5400","port":"5400"}
+2026-09-05 12:52:14 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-09-05 12:52:14 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: e65bce6c-eefd-4f15-bf95-0141928029e4 and listen address: 127.0.0.1:5400
+2026-09-05 12:52:14 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2026-09-05 12:52:14 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test"], parsedConfig=[]
+2026-09-05 12:52:17 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2026-09-05 12:52:18 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-09-05 12:52:18 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=e65bce6c-eefd-4f15-bf95-0141928029e4
+2026-09-05 12:52:18 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-09-05 12:52:18 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test"]
+2026-09-05 12:52:18 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-09-05 12:52:18 - [31merror[39m: TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at Object.extname (node:path:904:5)
+    at exports.isTypescriptProject (D:\TestHackaton\node_modules\browserstack-node-sdk\src\helpers\helper.js:1:272971)
+    at D:\TestHackaton\node_modules\browserstack-node-sdk\src\bin\playwright\command.js:2:19702
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+2026-09-05 12:52:44 - [32minfo[39m: Shutdown triggered by SIGINT
+2026-09-05 12:52:44 - [33mwarn[39m: SDK-TRA-005: [ClientTroubleShootingService] Some tests might not appear on the BrowserStack dashboard because the test process was interrupted with SIGINT.
+2026-09-05 12:52:44 - [32minfo[39m: View build on BrowserStack dashboard: null
+2026-09-05 12:52:45 - [32minfo[39m: SDK run ended for id: 5a1af783-0681-4807-8a85-3dc5fed0f8da, testhub id: bwvjqwovbxj25pgghebvdnpmtv7brswuebjvtr69
+2026-09-05 12:52:46 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop

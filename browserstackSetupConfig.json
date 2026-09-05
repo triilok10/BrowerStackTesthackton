@@ -1,6 +1,5 @@
-userName: ${BROWSERSTACK_USERNAME}
-accessKey: ${BROWSERSTACK_ACCESS_KEY}
-
+userName: trilokchandswami_DgqL8e
+accessKey: ghyjcwk8QVm64VBdriNH
 platforms:
   - os: OS X
     osVersion: Sonoma
@@ -13,8 +12,17 @@ platforms:
   - deviceName: iPhone 15
     osVersion: 17
     browserName: safari
-
 browserstackLocal: false
 buildName: BugBash-Automation-Build
 projectName: BugBash_TestHackathon
 testObservability: true
+additionalPlatforms: []
+testContextOptions:
+  skipSessionStatus: false
+  skipSessionName: false
+buildIdentifier: '#1'
+logDir: D:\TestHackaton\log
+browserStackLocalOptions:
+  skipBinaryInitialisation: false
+proxySettings: {}
+accessibility: false

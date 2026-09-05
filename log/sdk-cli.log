@@ -1,0 +1,14 @@
+2026-09-05T07:22:14.710Z CLI info [main]    Server listening on port: 5400
+2026-09-05T07:22:14.816Z CLI info    Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"os":"OS X","osVersion":"Sonoma","browserName":"chrome","browserVersion":"latest"},{"os":"Windows","osVersion":"11","browserName":"play-native-firefox","browserVersion":"latest"},{"deviceName":"iPhone 15","osVersion":"17","browserName":"safari"}],"browserstackLocal":false,"buildName":"BugBash-Automation-Build","projectName":"BugBash_TestHackathon","testObservability":true}
+2026-09-05T07:22:14.855Z CLI info    Should start debug utility: undefined
+2026-09-05T07:22:15.015Z CLI info [testhub:module]   [e65bce6c-eefd-4f15-bf95-0141928029e4]  Starting testhub from 28204:0
+2026-09-05T07:22:15.017Z CLI info   [e65bce6c-eefd-4f15-bf95-0141928029e4]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-09-05T07:22:15.019Z CLI info   [e65bce6c-eefd-4f15-bf95-0141928029e4]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-09-05T07:22:15.227Z CLI info   [e65bce6c-eefd-4f15-bf95-0141928029e4]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-09-05T07:22:15.228Z CLI info   [e65bce6c-eefd-4f15-bf95-0141928029e4]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-09-05T07:22:15.229Z CLI info   [e65bce6c-eefd-4f15-bf95-0141928029e4]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2026-09-05T07:22:16.426Z CLI info [testhub:module]   [e65bce6c-eefd-4f15-bf95-0141928029e4]  startBuild: response=bwvjqwovbxj25pgghebvdnpmtv7brswuebjvtr69
+2026-09-05T07:22:16.429Z CLI info  [bwvjqwovbxj25pgghebvdnpmtv7brswuebjvtr69]  [e65bce6c-eefd-4f15-bf95-0141928029e4]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-09-05T07:22:44.791Z CLI info [main]  [bwvjqwovbxj25pgghebvdnpmtv7brswuebjvtr69]  [e65bce6c-eefd-4f15-bf95-0141928029e4]  Received graceful signal termination (SIGINT), performing cleanup
+2026-09-05T07:22:44.794Z CLI info  [bwvjqwovbxj25pgghebvdnpmtv7brswuebjvtr69]  [e65bce6c-eefd-4f15-bf95-0141928029e4]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-09-05T07:22:45.868Z CLI info [testhub:module]  [bwvjqwovbxj25pgghebvdnpmtv7brswuebjvtr69]  [e65bce6c-eefd-4f15-bf95-0141928029e4]  stopBuild: bwvjqwovbxj25pgghebvdnpmtv7brswuebjvtr69 request={"finished_at":"2026-09-05T07:22:44.793Z","finished_metadata":[{"reason":"signal_termination","signal":"SIGINT"}],"custom_metadata":null} response={"data":""}
